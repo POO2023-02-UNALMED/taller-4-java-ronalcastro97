@@ -27,5 +27,7 @@ public class Taller4 {
         System.out.println(asignatura1.codigoExterno);
         System.out.println(estudiantes1[1].cedula);
         System.out.println(new Persona("Alejandro").cedula);
+        
+        
     }
 }
