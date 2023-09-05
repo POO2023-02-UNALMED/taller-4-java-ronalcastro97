@@ -2,13 +2,13 @@ package classroom;
 
 public class Asignatura{
 
-    public String nombre="Sin nombre";
+    public String nombre;
     public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;
     
     public Asignatura() {
-    
+    	this.nombre="Sin nombre";
     }
     public Asignatura(int codigoExterno,Tipo tipo) {
     	this.codigoExterno=codigoExterno;
@@ -20,13 +20,6 @@ public class Asignatura{
         this.tipo=tipo;
     }
     
-    public Asignatura(String nombre, int codigoInterno, int codigoExterno) {
-    	this.nombre=nombre;
-    	this.codigoInterno=codigoInterno;
-    	this.codigoExterno=codigoExterno;
-        
-    }
-
 
     public Asignatura(String nombre, int codigoInterno, int codigoExterno,Tipo tipo) {
         this.nombre = nombre;
